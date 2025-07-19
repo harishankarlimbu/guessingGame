@@ -16,7 +16,6 @@ class Game {
     this.pastGuesses = [];
     this.winningNumber = generateWinningNumber();
   }
-
   difference() {
     return Math.abs(this.playersGuess - this.winningNumber);
   }
